@@ -1,4 +1,4 @@
-#　HomeWork#1 from  01171108孫國凱HW#2.py
+#　HomeWork#2 from  01171108孫國凱HW#2.py
 
 import calendar
 from calendar import weekday
