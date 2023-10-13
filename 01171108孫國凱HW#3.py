@@ -11,7 +11,9 @@ def say(msg):
 def add(n1,n2):
     result = n1+n2
     return result
-
+def multiply(x,y):
+    print("multiply= ",x*y)
+    return x*y
 
 sayHello()
 value = say("Hello function")
