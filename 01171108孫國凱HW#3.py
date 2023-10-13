@@ -15,32 +15,34 @@ def getint(x,y):
 def square(x):
     return x*x
 
-
-
-type=int(input("請輸入你想做的運算:1=加,2=減,3=乘,4=除,5=取餘數,6=取整數,7=次方,0=退出"))
+type=int(input("請輸入你想做的運算:1=加,2=減,3=乘,4=除,5=取餘數,6=取整數,7=次方,0=退出："))
+print("\n")
 while(type!=0):
-    number1=float(input("請輸入第一個數"))
+    number1=float(input("請輸入第一個數："))
     if type!=7:
-        number2=float(input("請輸入第二個數"))
+        number2=float(input("請輸入第二個數："))
     if type==1:
-        print(add(number1,number2))
+        print("答案是：",add(number1,number2))
     elif type==2:
-        print(minus(number1,number2))
+        print("答案是：",minus(number1,number2))
     elif type==3:
-        print(multiply(number1,number2))
+        print("答案是：",multiply(number1,number2))
     elif type==4:
-        print(divide(number1,number2))
+        print("答案是：",divide(number1,number2))
     elif type==5:
-        print(remainder(number1,number2))
+        print("答案是：",remainder(number1,number2))
     elif type==6:
-        print(getint(number1,number2))
+        print("答案是：",getint(number1,number2))
     elif type==7:
-        print(square(number1))
+        print("答案是：",square(number1))
     else:
         print("在幹嘛，不要亂打")
     type=int(input("請輸入你想做的運算:1=加,2=減,3=乘,4=除,5=取餘數,6=取整數,7=次方,0=退出"))
-
-
+#part 2
+for i in range(1, 10):
+    for j in range(1, 10):
+        print("%d * %d = %d" % (i, j, i*j),end=" ")
+    print("/n")
 
 
 
