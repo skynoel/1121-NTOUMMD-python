@@ -3,4 +3,4 @@
 
 ### 檔名：01171108孫國凱HW#X.py
 
-### 內容備註：# HomeWork#1 from  01171108孫國凱HW#X.py
+### 內容備註：# HomeWork#X from  01171108孫國凱HW#X.py
